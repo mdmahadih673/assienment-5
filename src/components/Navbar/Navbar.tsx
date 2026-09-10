@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <>
             <div className='border-b border-gray-100'>
-                <div className='flex justify-between container mx-auto p-2 items-center sticky top-0 z-50 bg-white ' >
+                <div className='flex justify-between container mx-auto py-2 items-center sticky top-0 z-50 bg-white ' >
                     <div>
                         <a href=""> <img src={logo} alt="#" /> </a>
 
