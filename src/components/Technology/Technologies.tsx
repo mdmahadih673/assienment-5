@@ -12,7 +12,7 @@ export default function Technologies({ technologiesPromise }: TechnologiesProps)
     const [selectedTechnologies, setSelectedTechnologies] = useState<ITechnologyType[]>([]);
 
     return (
-        <section className="pb-12">
+        <section className="pb-12 pt-4 sm:pt-6">
             <div className="mb-6">
                 <h1 className="text-2xl font-bold text-[#111827] sm:text-3xl">
                     Explore the{" "}

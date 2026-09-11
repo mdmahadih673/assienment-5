@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <>
             <div className='border-b border-gray-100  sticky top-0 z-50 '>
-                <div className='flex justify-between px-4 py-2 items-center bg-white' >
+                <div className='flex min-h-16 justify-between gap-3 px-4 py-2 items-center bg-white' >
                     <div>
                         <a href="#" onClick={closeMenu}> <img src={logo} alt="Dev Stack" /> </a>
 
@@ -33,12 +33,12 @@ const Navbar = () => {
                         <a href="#" onClick={closeMenu} className='hover:text-pink-500 transition'>Contact</a>
                     </div>
 
-                    <div className={`${isMenuOpen ? 'flex' : 'hidden'} md:flex items-center gap-3`}>
-                        <button className="px-4 py-2 text-gray-700 rounded-3xl cursor-pointer hover:text-pink-500 transition">
+                    <div className={`${isMenuOpen ? 'flex' : 'hidden'} md:flex items-center gap-1 sm:gap-3`}>
+                        <button className="px-2 py-2 text-sm text-gray-700 rounded-3xl cursor-pointer hover:text-pink-500 transition sm:px-4">
                             Sign In
                         </button>
 
-                        <button className="px-5 py-2 bg-pink-500 text-white rounded-3xl cursor-pointer hover:bg-pink-600 transition">
+                        <button className="px-3 py-2 text-sm bg-pink-500 text-white rounded-3xl cursor-pointer hover:bg-pink-600 transition sm:px-5">
                             Sign Up
                         </button>
                     </div>

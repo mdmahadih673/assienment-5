@@ -1,4 +1,45 @@
-# React + TypeScript + Vite
+# Dev Stack
+
+A React and TypeScript application for exploring technologies and building a personal development stack.
+
+## Project Structure
+
+```text
+src/
+├── App.tsx                 # Application shell and data loading
+├── main.tsx                # React entry point
+├── index.css               # Global styles and Tailwind setup
+├── assets/                 # Images and static visual assets
+├── components/
+│   ├── Navbar/             # Main navigation
+│   ├── Hero/               # Introductory hero section
+│   ├── Technology/         # Technology catalogue and selected stack
+│   └── Footer/             # Site footer
+└── types/                  # Shared TypeScript types
+
+public/
+└── technologies.json       # Technology catalogue data
+```
+
+## Available Scripts
+
+```bash
+npm run dev       # Start the development server
+npm run build     # Type-check and create a production build
+npm run lint      # Run ESLint
+```
+
+## Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- DaisyUI
+
+---
+
+## Vite Notes
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
