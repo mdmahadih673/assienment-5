@@ -4,7 +4,8 @@ Dev Stack Builder is a simple website where users can explore different technolo
 
 ##  Live Site
 
-[Add your live site link here.](https://assienment-5.vercel.app/)
+[live site link here.](https://assienment-5.vercel.app/)
+https://assienment-5.vercel.app/
 
 ##  GitHub
 
