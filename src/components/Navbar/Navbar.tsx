@@ -1,10 +1,10 @@
 import logo from '../../assets/logo-text.png'
 const Navbar = () => {
-    
+
     return (
         <>
-            <div className='border-b border-gray-100'>
-                <div className='flex justify-between container mx-auto py-2 items-center sticky top-0 z-50 bg-white ' >
+            <div className='border-b border-gray-100  sticky top-0 z-50 '>
+                <div className='flex justify-between  py-2 items-center  bg-white ' >
                     <div>
                         <a href=""> <img src={logo} alt="#" /> </a>
 

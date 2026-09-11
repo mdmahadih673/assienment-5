@@ -2,7 +2,7 @@ import banner from '../../assets/banner-stack.png'
 const Hero = () => {
     return (
         <>
-            <div className='flex justify-between container mx-auto py-2 items-center sticky top-0 z-50 bg-white ' >
+            <div className='flex justify-between  py-2 items-center bg-white ' >
                 <div>
 
                     <h1 className="text-6xl font-bold mb-4">
