@@ -33,7 +33,7 @@ export default function YourStack({
             </div>
             <button
                 onClick={() => handleReomveTech(selectTech)}
-                className="p-1 text-slate-400 "
+                className="cursor-pointer p-1 text-slate-400"
             >
                 <FaRegTrashAlt className="text-sm" />
             </button>

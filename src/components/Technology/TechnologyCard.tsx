@@ -29,7 +29,7 @@ function TechnologyCard({
 
         toast.success(`${technology.name} Add to Stack `, {
             position: "top-center",
-            autoClose: 500,
+            autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: false,
             pauseOnHover: true,
@@ -86,7 +86,7 @@ function TechnologyCard({
                     type="button"
                     onClick={handleButtonType}
                     disabled={isSelected ? true : false}
-                    className={`w-full rounded-md ${isSelected ? "bg-slate-400" : "bg-slate-900 hover:bg-slate-800"} py-2 text-[10px] font-semibold text-white transition-colors`}
+                    className={`w-full cursor-pointer rounded-md ${isSelected ? "bg-slate-400" : "bg-slate-900 hover:bg-slate-800"} py-2 text-[10px] font-semibold text-white transition-colors`}
                 >
                     {isSelected ? "Added" : "Add to Stack"}
                 </button>

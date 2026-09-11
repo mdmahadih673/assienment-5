@@ -17,10 +17,10 @@ export default function StackItem({
             (selectTechnology) => selectTechnology.id !== tech.id,
         );
         setSelectedTechnologies(removeTech);
-        
+
         toast.error(`${tech.name} Remove to stack`, {
             position: "top-center",
-            autoClose: 500,
+            autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: false,
             pauseOnHover: true,
@@ -33,6 +33,18 @@ export default function StackItem({
 
     const handleRemoveAll = () => {
         setSelectedTechnologies([]);
+
+        toast.success("All technologies removed from stack", {
+            position: "top-center",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+        });
     };
 
     return (
